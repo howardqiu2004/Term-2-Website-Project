@@ -1,26 +1,26 @@
-* {
+body {
 	background-color: rgb(30,30,30);
-	padding: .5vw;
-	margin-top: 2vw;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: grey;
 }
 
 li {
   float: left;
-  height: 10vw;
-  width: 10vw;
+  width: 25%;
+  font-size: 2vw;
+  text-shadow: 1vw 1vw 3vw;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.5vw;
   text-decoration: none;
 }
 
@@ -32,10 +32,6 @@ li a:hover {
 	background-color: #4CAF50;
 }	
 
-.navmenu {
-	width: 20vw;
-}
-
 .container {
 	
 }
@@ -46,6 +42,8 @@ li a:hover {
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 	border: 1vw solid white;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 
 .main {

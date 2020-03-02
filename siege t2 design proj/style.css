@@ -28,26 +28,16 @@ li a:hover {
   background-color: #111;
 }
 
+img {
+	float: middle;
+}
+
 .active {
 	background-color: #4CAF50;
 }	
 
-.container {
-	
-}
-
-.header {
-	color: white;
-	text-shadow: 4px 4px 10px #111;
-	margin-top: 3vw;
-	margin-bottom: 3vw;
-	border: 1vw solid white;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
-}
-
 .main {
-	width: 7vw;
+	
 }
 
 .subheader {
